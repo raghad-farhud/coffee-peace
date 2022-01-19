@@ -1,0 +1,83 @@
+/* @keyframes changingBackground {
+    0%,20%,80%,100%{
+        background-image: url(../imgs/square/jason-thomas-f0cXTgaxysU-unsplash.jpg);
+    }
+    30%,50%,70%{
+        background-image: url(../imgs/square/guy-basabose-FzdEbrA3Qj0-unsplash.jpg);
+    }
+
+} */
+@keyframes up-down-img {
+    0%,100%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+}
+@keyframes left-right-img {
+    0%,100%{
+        transform: translateX(-20px);
+    }
+    50%{
+        transform: translateX(20px);
+    }
+}
+@keyframes up-down-icon-quite {
+    0%,100%{
+        transform: rotate(5deg);
+    }
+    50%{
+        transform: rotate(-5deg);
+    }
+}
+@keyframes up-down-i {
+    0%,
+    10%,
+    20%,
+
+    50%,
+
+    80%,
+    100% {
+    transform: translateY(0);
+    }
+    40%,
+    60% {
+    transform: translateY(-15px);
+    }
+}
+@keyframes main-title-before {
+    50%{
+        left: 0px;
+        height: 12px;
+        width: 12px;
+    }
+    100%{
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+    }
+}
+@keyframes main-title-after {
+    50%{
+        right: 0px;
+        height: 12px;
+        width: 12px;
+    }
+    100%{
+        right: 0px;
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+    }
+}
+@keyframes right-arrow {
+    0%,100%{
+        transform: translateX(0px);
+    }
+    75%{
+        transform: translateX(-10px);
+    }
+}
